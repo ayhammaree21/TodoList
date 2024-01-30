@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(230, 230, 230);
+}
+
+h1{
+    font-size: 32px;
+}
+
+.list{
+    width: 400px;
+    background-color: white;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.list .addTask{
+    width: 100%;
+}
+
+.list .addTask .add-task-field{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 1px;
+}
+
+.list .addTask .addBtn{
+    height: 26px;
+    width: 45px;
+    background-color: rgb(56, 169, 90);
+    color: white;
+    border: none;
+
+}
+
+.list .tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.list .tasks .task{
+    display: flex;
+    gap: 7px;
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+  }
